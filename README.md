@@ -1,4 +1,4 @@
-#  Finetuning FlanT5Base and online deployment in Vertex AI
+#  Finetuning Flan-T5-Base and online deployment in Vertex AI
 
 This code shows how to **finetune a Flan-T5-Base model** (stored in Hugging Face) for **SAMSum** dataset (summary of conversations in English).
 This code uses **Vertex AI Training with 1xA100 GPU** (40 GB HBM) for finetuning, and **Vertex AI prediction** for online predictions.
@@ -170,12 +170,7 @@ Greg: Good, see you at home, bye!
   "modelDisplayName": "custom-finetuning-flan-t5-base",
   "modelVersionId": "1"
 }
-```
-
-
-## References
-
-[1] Phil Schmid blog: [Fine-tune FLAN-T5 for chat & dialogue summarization](https://www.philschmid.de/fine-tune-flan-t5)    
+```  
 
 
 
